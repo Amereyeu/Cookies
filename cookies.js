@@ -20,7 +20,7 @@ getCookie = (cName) => {
 
 document.querySelector("#cookieButton").addEventListener("click", () => {
   document.querySelector("#gdpr").style.display = "none";
-  setCookie("cookie-name", true, 7);
+  setCookie("cookie-name", true, 30);
 });
 
 cookieMessage = () => {
